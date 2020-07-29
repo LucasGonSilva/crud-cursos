@@ -14,7 +14,9 @@
 class AuthHook {
     
     private $controller = [
-        'auth'
+        'auth',
+        'home',
+        'cadastro'
     ];
 
     public function check() {
